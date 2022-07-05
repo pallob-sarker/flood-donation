@@ -25,13 +25,16 @@
     letter-spacing: 2px;
 }
 
-.Banner-Section .Banner-Text .Para2 {
-    padding-bottom: 30px;
-}
-
 .Paragrah {
     font-size: 15px;
     color: rgb(225, 224, 224);
+    letter-spacing: 1px;
+    padding: 30px 30px;
+}
+
+.Paragrah1 {
+    font-size: 15px;
+    color: rgb(21, 21, 21);
     letter-spacing: 1px;
     padding: 30px 30px;
 }
@@ -43,4 +46,51 @@
     color: white;
     border: none;
     border-radius: 8px;
+}
+
+.Donate-Section {
+    width: 70%;
+    margin: 0% 15% 0% 15%;
+    text-align: center;
+}
+
+.Donate-Section .Text {
+    margin-top: 80px;
+}
+
+.Donate-Section .Text h1 {
+    font-size: 40px;
+    color: rgb(27, 27, 27);
+}
+
+.Donate-Section .Price-Cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10x;
+    margin-bottom: 40px;
+}
+
+.Donate-Section .Price-Cards .Card-Item {
+    padding: 25px 20px;
+    background-color: rgb(235, 235, 235);
+}
+
+.Donate-Section .Price-Cards .Card-Item h2 {
+    font-size: 20px;
+    color: rgb(92, 92, 92);
+}
+
+#Marked {
+    border: 1px solid rgb(255, 34, 34);
+    background-color: rgb(253, 234, 234);
+}
+
+.Donate-Section .Form input {
+    border: none;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.Donate-Section .Form .btn {
+    margin-top: 40px;
 }
