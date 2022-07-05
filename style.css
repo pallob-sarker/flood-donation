@@ -5,3 +5,45 @@
     padding: 0px;
     font-family: 'Lato', sans-serif;
 }
+
+.Banner-Section {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 1)), url(./images/donation4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Banner-Section .Banner-Text {
+    text-align: center;
+    padding-top: 23%;
+}
+
+.Banner-Section .Banner-Text h1 {
+    font-size: 60px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.Banner-Section .Banner-Text .Para1 {
+    padding-top: 30px;
+}
+
+.Banner-Section .Banner-Text .Para2 {
+    padding-bottom: 30px;
+}
+
+.Paragrah {
+    font-size: 15px;
+    color: rgb(225, 224, 224);
+    letter-spacing: 1px;
+}
+
+.btn {
+    font-size: 18px;
+    padding: 15px 20px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
