@@ -54,28 +54,29 @@
     text-align: center;
 }
 
-.Donate-Section .Text {
+.Text {
     margin-top: 80px;
+    text-align: center;
 }
 
-.Donate-Section .Text h1 {
+.Text h1 {
     font-size: 40px;
     color: rgb(27, 27, 27);
 }
 
-.Donate-Section .Price-Cards {
+.Donate-Section .Flex-Cards {
     display: flex;
     justify-content: space-between;
     margin-top: 10x;
     margin-bottom: 40px;
 }
 
-.Donate-Section .Price-Cards .Card-Item {
+.Donate-Section .Flex-Cards .Card-Item {
     padding: 25px 20px;
     background-color: rgb(235, 235, 235);
 }
 
-.Donate-Section .Price-Cards .Card-Item h2 {
+.Donate-Section .Flex-Cards .Card-Item h2 {
     font-size: 20px;
     color: rgb(92, 92, 92);
 }
@@ -93,4 +94,28 @@
 
 .Donate-Section .Form .btn {
     margin-top: 40px;
+}
+
+.Plan-Section .Flex-Cards {
+    margin-top: 30px;
+}
+
+.Plan-Section .Flex-Cards .Card-Item {
+    text-align: left;
+}
+
+.Plan-Section .Flex-Cards .Card-Item h2 {
+    padding: 15px 0px;
+}
+
+.Plan-Section .Flex-Cards #Item1 {
+    background-color: rgb(253, 225, 225);
+}
+
+.Plan-Section .Flex-Cards #Item2 {
+    background-color: rgb(225, 230, 253);
+}
+
+.Plan-Section .Flex-Cards #Item3 {
+    background-color: rgb(253, 244, 225);
 }
