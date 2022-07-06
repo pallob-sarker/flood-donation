@@ -103,6 +103,7 @@
 .Plan-Section .Flex-Cards .Card-Item {
     text-align: left;
     margin-right: 15px;
+    border-radius: 8px;
 }
 
 .Plan-Section .Flex-Cards .Card-Item h2 {
@@ -119,4 +120,31 @@
 
 .Plan-Section .Flex-Cards #Item3 {
     background-color: rgb(253, 244, 225);
+}
+
+.Update-Section {
+    width: 50%;
+    margin: 0% 25% 0% 25%;
+    text-align: center;
+}
+
+.Update-Section .Form-Area {
+    background-color: rgb(255, 244, 189);
+    padding: 80px 30px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.Update-Section .Form-Area input {
+    border: none;
+    padding: 10px 20px;
+    background-color: rgb(220, 220, 220);
+    color: rgb(233, 233, 233);
+}
+
+.Update-Section .Form-Area #Button {
+    background-color: crimson;
+    color: white;
+    margin-left: -5px;
+    padding: 10px;
 }
